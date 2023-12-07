@@ -20,7 +20,6 @@ public class BookRepoTest {
 
     @Test
     public void whenFindById_thenReturnById() {
-
         Book book = new Book();
         book.setTitle("Test title 1");
         book.setAuthor("Test Author 1");
