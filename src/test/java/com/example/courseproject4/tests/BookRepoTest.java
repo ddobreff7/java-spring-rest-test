@@ -28,7 +28,6 @@ public class BookRepoTest {
         entityManager.flush();
         
         Book found = bookRepo.getById(book.getId());
-        
         assert(found.getId()).equals(book.getId());
     }
 }
